@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9175CCE326A7C41B005F787E /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9175CCE126A7C41B005F787E /* CartTableViewController.swift */; };
+		9175CCE526A7C472005F787E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9175CCE426A7C472005F787E /* Cart.swift */; };
+		9175CCE726A7D5B9005F787E /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9175CCE626A7D5B9005F787E /* AddItemViewController.swift */; };
+		9175CCE926A7E197005F787E /* doneWithItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9175CCE826A7E197005F787E /* doneWithItemViewController.swift */; };
 		AA6E527126A7673900FE3A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E527026A7673900FE3A93 /* AppDelegate.swift */; };
 		AA6E527326A7673900FE3A93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E527226A7673900FE3A93 /* SceneDelegate.swift */; };
 		AA6E527526A7673900FE3A93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E527426A7673900FE3A93 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9175CCE226A7C41B005F787E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/CartTableViewController.swift; sourceTree = "<group>"; };
+		9175CCE426A7C472005F787E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		9175CCE626A7D5B9005F787E /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		9175CCE826A7E197005F787E /* doneWithItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doneWithItemViewController.swift; sourceTree = "<group>"; };
 		AA6E526D26A7673900FE3A93 /* final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E527026A7673900FE3A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA6E527226A7673900FE3A93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +117,10 @@
 				AA6E527E26A7674300FE3A93 /* LaunchScreen.storyboard */,
 				AA6E528126A7674300FE3A93 /* Info.plist */,
 				AA6E527926A7673900FE3A93 /* final_project.xcdatamodeld */,
+				9175CCE126A7C41B005F787E /* CartTableViewController.swift */,
+				9175CCE426A7C472005F787E /* Cart.swift */,
+				9175CCE626A7D5B9005F787E /* AddItemViewController.swift */,
+				9175CCE826A7E197005F787E /* doneWithItemViewController.swift */,
 			);
 			path = "final project";
 			sourceTree = "<group>";
@@ -262,8 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA6E527526A7673900FE3A93 /* ViewController.swift in Sources */,
+				9175CCE526A7C472005F787E /* Cart.swift in Sources */,
 				AA6E527126A7673900FE3A93 /* AppDelegate.swift in Sources */,
 				AA6E527B26A7673900FE3A93 /* final_project.xcdatamodeld in Sources */,
+				9175CCE726A7D5B9005F787E /* AddItemViewController.swift in Sources */,
+				9175CCE326A7C41B005F787E /* CartTableViewController.swift in Sources */,
+				9175CCE926A7E197005F787E /* doneWithItemViewController.swift in Sources */,
 				AA6E527326A7673900FE3A93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +316,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9175CCE126A7C41B005F787E /* CartTableViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9175CCE226A7C41B005F787E /* Base */,
+			);
+			name = CartTableViewController.swift;
+			sourceTree = "<group>";
+		};
 		AA6E527626A7673900FE3A93 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
