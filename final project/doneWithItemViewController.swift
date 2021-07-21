@@ -10,7 +10,7 @@ import UIKit
 class doneWithItemViewController: UIViewController {
 
     var previousVC = CartTableViewController()
-    var selectedItem = cart()
+    var selectedItem : CartCD?
     
     
     @IBOutlet weak var itemLabel: UILabel!
@@ -19,12 +19,24 @@ class doneWithItemViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        itemLabel.text = selectedItem.name 
+        itemLabel.text = selectedItem?.name
     }
     
 
    @IBAction func deleteTapped(_ sender: Any) {
        
+    guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+        return
+    }
+    
+    
+    let context = appDelegate.persistentContainer.viewContext
+    
+    
+    if let theItem = selectedItem {
+        context.delete(theItem)
+        navigationController?.popViewController(animated: true)
+    }
     }
     /*
     // MARK: - Navigation
@@ -37,3 +49,4 @@ class doneWithItemViewController: UIViewController {
     */
 
 }
+

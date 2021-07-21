@@ -9,15 +9,32 @@ import UIKit
 
 class CartTableViewController: UITableViewController {
 
-    var cartLists : [cart] = []
+    var cartLists : [CartCD] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        getItems()
         
-        cartLists = createCart()
+        //cartLists = createCart()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+      getItems()
+    }
+    
+    func getItems() {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            if let coreDataItems = try? context.fetch(CartCD.fetchRequest()) as? [CartCD] {
+                cartLists = coreDataItems
+                tableView.reloadData()
+                
+            }
+            
+        }
+        
     }
 
-    func createCart() -> [cart] {
+    /*func createCart() -> [cart] {
 
       let shoes = cart()
     shoes.name = "Target Shoes"
@@ -29,7 +46,7 @@ class CartTableViewController: UITableViewController {
       // important is set to false by default
 
       return [shoes, purse]
-    }
+    }*/
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -44,9 +61,10 @@ class CartTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         let cart = cartLists[indexPath.row]
-
-        cell.textLabel?.text = cart.name + " - " + cart.price
-        return cell
+        
+            cell.textLabel?.text = (cart.name ?? "failed to load item name") + " - " + (cart.price ?? "failed to load price")
+    
+              return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -101,7 +119,7 @@ class CartTableViewController: UITableViewController {
         }
         
         if let doneVC = segue.destination as? doneWithItemViewController{
-            if let cart = sender as? cart {
+            if let cart = sender as? CartCD {
                 doneVC.selectedItem = cart
                 doneVC.previousVC = self
             }

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class AddItemViewController: UIViewController {
 var previousVC = CartTableViewController()
@@ -22,20 +23,32 @@ var previousVC = CartTableViewController()
     }
     
     @IBAction func addTapped(_ sender: Any) {
-        let item = cart()
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else{
+            return
+        }
+         let context = appDelegate.persistentContainer.viewContext
+        
+        let item = CartCD(context: context)
+        
+        item.name = itemtextField.text
+        item.price = itemtextField.text
+        
+        appDelegate.saveContext()
+        
+        
+        navigationController?.popViewController(animated: true)
+        
+        /* let item = cart()
        
         if let itemText = itemtextField.text {
             item.name = itemText
-           
         }
         if let itemPrice = itempriceField.text {
             item.price = itemPrice
-            
         }
-        
         previousVC.cartLists.append(item)
         previousVC.tableView.reloadData()
-        navigationController?.popViewController(animated: true)
+        navigationController?.popViewController(animated: true)*/
     }
     
     /*
