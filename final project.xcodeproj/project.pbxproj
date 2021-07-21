@@ -20,6 +20,7 @@
 		AA6E528026A7674300FE3A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6E527E26A7674300FE3A93 /* LaunchScreen.storyboard */; };
 		AA6E528B26A7674400FE3A93 /* final_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E528A26A7674400FE3A93 /* final_projectTests.swift */; };
 		AA6E529626A7674400FE3A93 /* final_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E529526A7674400FE3A93 /* final_projectUITests.swift */; };
+		AAF3CA0226A8B73000E2D18A /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF3CA0126A8B73000E2D18A /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		AA6E529126A7674400FE3A93 /* final projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "final projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E529526A7674400FE3A93 /* final_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_projectUITests.swift; sourceTree = "<group>"; };
 		AA6E529726A7674400FE3A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF3CA0126A8B73000E2D18A /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				9175CCE426A7C472005F787E /* Cart.swift */,
 				9175CCE626A7D5B9005F787E /* AddItemViewController.swift */,
 				9175CCE826A7E197005F787E /* doneWithItemViewController.swift */,
+				AAF3CA0126A8B73000E2D18A /* CalculatorViewController.swift */,
 			);
 			path = "final project";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				9175CCE726A7D5B9005F787E /* AddItemViewController.swift in Sources */,
 				9175CCE326A7C41B005F787E /* CartTableViewController.swift in Sources */,
 				9175CCE926A7E197005F787E /* doneWithItemViewController.swift in Sources */,
+				AAF3CA0226A8B73000E2D18A /* CalculatorViewController.swift in Sources */,
 				AA6E527326A7673900FE3A93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
