@@ -31,7 +31,7 @@ var previousVC = CartTableViewController()
         let item = CartCD(context: context)
         
         item.name = itemtextField.text
-        item.price = itemtextField.text
+        item.price = itempriceField.text
         
         appDelegate.saveContext()
         

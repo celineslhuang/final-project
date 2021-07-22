@@ -25,19 +25,18 @@ class doneWithItemViewController: UIViewController {
 
    @IBAction func deleteTapped(_ sender: Any) {
        
-    guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
-        return
+    if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+        if let theItem = selectedItem {
+            context.delete(theItem); navigationController?.popViewController(animated: true)
+            }
+    }
+    
     }
     
     
-    let context = appDelegate.persistentContainer.viewContext
-    
-    
-    if let theItem = selectedItem {
-        context.delete(theItem)
-        navigationController?.popViewController(animated: true)
     }
-    }
+    
+   
     /*
     // MARK: - Navigation
 
@@ -48,5 +47,20 @@ class doneWithItemViewController: UIViewController {
     }
     */
 
-}
 
+
+  /*  @IBAction func deleteTapped(_ sender: Any) {
+        
+     guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+         return
+     }
+     
+     
+     let context = appDelegate.persistentContainer.viewContext
+     
+     
+     if let theItem = selectedItem {
+         context.delete(theItem); navigationController?.popViewController(animated: true)
+         }
+     }
+*/
