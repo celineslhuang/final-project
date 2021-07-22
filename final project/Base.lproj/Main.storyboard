@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5X8-JK-tyN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OeE-zV-Agh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,7 +14,7 @@
             <objects>
                 <viewController id="cKd-X4-FuD" customClass="QuestionsViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XKN-EY-55X">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hJw-bz-skQ">
@@ -57,7 +59,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools-4" translatesAutoresizingMaskIntoConstraints="NO" id="S1i-Pm-vfD">
-                                <rect key="frame" x="-45" y="507" width="501" height="286"/>
+                                <rect key="frame" x="-45" y="507" width="501" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to ask yourself before you purchase," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vU-Ze-uY4">
@@ -75,8 +77,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="1bI-Mb-34e"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ihG-Zr-RG5"/>
                 </viewController>
@@ -89,7 +91,7 @@
             <objects>
                 <viewController id="vEA-gS-OzC" customClass="doneWithItemViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GeT-Qt-zXT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="item name " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Beq-FD-Mro">
@@ -143,8 +145,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.87823122740000004" green="0.83828264470000002" blue="0.58707219359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="BIq-lt-xKP"/>
+                        <color key="backgroundColor" red="0.87823122740000004" green="0.83828264470000002" blue="0.58707219359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="0fz-yc-LQD"/>
                     <connections>
@@ -160,9 +162,9 @@
             <objects>
                 <tableViewController id="EGz-eK-Z9B" customClass="CartTableViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jqm-UU-XiX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="separatorColor" red="0.93218034510000003" green="0.89657157659999998" blue="0.84922379260000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexColor" red="0.20390012860000001" green="0.20393526549999999" blue="0.2038924694" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.93218034510000003" green="0.89657157659999998" blue="0.84922379260000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -204,7 +206,7 @@
             <objects>
                 <viewController id="XEk-gK-nXQ" customClass="AddItemViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cdk-Dp-2jA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Name: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdr-WK-V4e">
@@ -248,7 +250,7 @@
                                 <rect key="frame" x="15" y="480" width="398" height="145"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZp-ha-hoj">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZp-ha-hoj">
                                 <rect key="frame" x="188" y="660" width="68" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -267,8 +269,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.87823122740000004" green="0.83828264470000002" blue="0.58707219359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Des-jv-Cmi"/>
+                        <color key="backgroundColor" red="0.87823122740000004" green="0.83828264470000002" blue="0.58707219359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZsD-pn-hXv" colorLabel="IBBuiltInLabel-Gray"/>
                     <connections>
@@ -286,7 +288,7 @@
             <objects>
                 <viewController id="LqL-ka-5bD" customClass="CalculatorViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3n6-np-FPu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LrS-Hv-V0b">
@@ -356,7 +358,7 @@
                                 <color key="textColor" red="0.42745098040000001" green="0.43921568630000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVM-a4-Rx6">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVM-a4-Rx6">
                                 <rect key="frame" x="163" y="660" width="89" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.42745098039215684" green="0.4392156862745098" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
@@ -369,8 +371,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.93333333333333335" green="0.89803921568627454" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="THx-Qa-6on"/>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.89803921568627454" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calculator" image="number" catalog="system" landscapeImage="bookmark" id="gMg-Fy-RRL"/>
                     <connections>
@@ -384,10 +386,58 @@
             </objects>
             <point key="canvasLocation" x="1085.5072463768117" y="27.455357142857142"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="mkE-DG-p8R">
+            <objects>
+                <viewController id="OeE-zV-Agh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ggt-t3-Swu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember, managing your shopping compulsions for a healthier closet and mind" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgD-eV-MDW">
+                                <rect key="frame" x="48" y="44" width="331" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.66705375909999998" green="0.65374785660000001" blue="0.36062926049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools-2" translatesAutoresizingMaskIntoConstraints="NO" id="ywh-7w-pwD">
+                                <rect key="frame" x="-105" y="172" width="624" height="501"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ArJ-GN-emk">
+                                <rect key="frame" x="0.0" y="682" width="422" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3x-mj-p5b">
+                                        <rect key="frame" x="92" y="92" width="253" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
+                                        <state key="normal" title="starts with recognition.">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="5X8-JK-tyN" kind="show" id="Tta-JI-e6h"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.66705375909999998" green="0.65374785660000001" blue="0.36062926049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="u1E-H7-aWZ"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qrs-Iw-MRz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1201.449275362319" y="26.785714285714285"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="EYR-dc-Aa5">
             <objects>
                 <tabBarController id="5X8-JK-tyN" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="3n7-at-3ag"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="evB-62-8N6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -410,7 +460,7 @@
                     <tabBarItem key="tabBarItem" title="Lists" image="pencil.and.ellipsis.rectangle" catalog="system" landscapeImage="pencil.and.ellipsis.rectangle" id="X66-ah-hnr"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GSb-mD-y62">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -429,7 +479,7 @@
                     <tabBarItem key="tabBarItem" title="Reminders" image="tray" catalog="system" landscapeImage="tray" selectedImage="tray" id="fJl-nW-h6v"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fmn-wr-cYF">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -446,7 +496,7 @@
             <objects>
                 <viewController id="Qzg-6I-VP9" customClass="Question1AnimationViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KA6-av-HMK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aux-AD-XkG">
@@ -495,8 +545,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="LUm-6J-qHV"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="98J-fV-cme"/>
                     <connections>
@@ -512,7 +562,7 @@
             <objects>
                 <viewController id="aIo-Xh-5ZA" customClass="Question2AnimationViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1PV-yM-kHQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m2m-GJ-FbN">
@@ -567,8 +617,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Gvh-1Z-3LV"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="55g-gQ-X8e"/>
                     <connections>
@@ -584,7 +634,7 @@
             <objects>
                 <viewController id="5D6-kR-4Oe" customClass="Question3AnimationViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sMK-YA-4l7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sjy-96-qdd">
@@ -640,8 +690,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0CW-c9-ZLZ"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="JDU-Gu-Q2c"/>
                     <connections>
@@ -655,18 +705,21 @@
             <point key="canvasLocation" x="3800.0000000000005" y="758.70535714285711"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.42888784410000003" green="0.44094681740000002" blue="0.35397315029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
-        <image name="arrow.right.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="bookmark" catalog="system" width="56" height="64"/>
-        <image name="cart.fill" catalog="system" width="64" height="50"/>
-        <image name="number" catalog="system" width="64" height="62"/>
+        <image name="arrow.right.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="bookmark" catalog="system" width="112" height="128"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
+        <image name="number" catalog="system" width="128" height="124"/>
         <image name="output-onlinepngtools-2" width="1080" height="1350"/>
         <image name="output-onlinepngtools-4" width="1080" height="1350"/>
         <image name="output-onlinepngtools-9" width="1080" height="1350"/>
-        <image name="pencil.and.ellipsis.rectangle" catalog="system" width="64" height="40"/>
+        <image name="pencil.and.ellipsis.rectangle" catalog="system" width="128" height="81"/>
         <image name="question1image" width="1350" height="932"/>
-        <image name="trash" catalog="system" width="60" height="64"/>
-        <image name="tray" catalog="system" width="64" height="44"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="tray" catalog="system" width="128" height="88"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
-    <color key="tintColor" red="0.42888784410000003" green="0.44094681740000002" blue="0.35397315029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
