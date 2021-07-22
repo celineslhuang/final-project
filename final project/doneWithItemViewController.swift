@@ -23,15 +23,17 @@ class doneWithItemViewController: UIViewController {
     }
     
 
-   @IBAction func deleteTapped(_ sender: Any) {
        
-    if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
-        if let theItem = selectedItem {
-            context.delete(theItem); navigationController?.popViewController(animated: true)
-            }
+ 
+    
+    @IBAction func doneTapped(_ sender: UIButton) {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            if let theItem = selectedItem {
+                context.delete(theItem); navigationController?.popViewController(animated: true)
+                }
+        }
     }
     
-    }
     
     
     }
