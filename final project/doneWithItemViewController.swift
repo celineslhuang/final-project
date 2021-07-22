@@ -20,6 +20,7 @@ class doneWithItemViewController: UIViewController {
         super.viewDidLoad()
 
         itemLabel.text = selectedItem?.name
+        print(selectedItem?.name!)
     }
     
 
@@ -27,9 +28,14 @@ class doneWithItemViewController: UIViewController {
  
     
     @IBAction func doneTapped(_ sender: UIButton) {
-        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
-            if let theItem = selectedItem {
-                context.delete(theItem); navigationController?.popViewController(animated: true)
+        
+              
+          
+         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+           
+           if let theItem = selectedItem {
+                context.delete(theItem)
+            navigationController?.popViewController(animated: true)
                 }
         }
     }

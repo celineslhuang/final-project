@@ -72,7 +72,7 @@ class CartTableViewController: UITableViewController {
      
       let celll = cartLists[indexPath.row]
 
-        performSegue(withIdentifier: "moveToDone", sender: cart.self)
+        performSegue(withIdentifier: "moveToDone", sender: celll)
     }
 
     /*
@@ -122,6 +122,8 @@ class CartTableViewController: UITableViewController {
             if let cart = sender as? CartCD {
                 doneVC.selectedItem = cart
                 doneVC.previousVC = self
+                
+                print(cart.name)
             }
         }
     }
