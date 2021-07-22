@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OeE-zV-Agh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OeE-zV-Agh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -131,14 +131,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vn2-2Y-WIg">
-                                <rect key="frame" x="114" y="657" width="186" height="36"/>
+                                <rect key="frame" x="114" y="657" width="194" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="30"/>
-                                <state key="normal" title="Delete Item" image="trash" catalog="system">
+                                <state key="normal" title=" Delete Item" image="trash" catalog="system">
                                     <color key="titleColor" red="0.42888784410000003" green="0.41585752749999999" blue="0.067516373990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="deleteTapped:" destination="vEA-gS-OzC" eventType="touchUpInside" id="fdU-X2-VhA"/>
                                     <action selector="doneTapped:" destination="vEA-gS-OzC" eventType="touchUpInside" id="iiv-OO-B3c"/>
                                 </connections>
                             </button>
@@ -161,7 +160,7 @@
             </objects>
             <point key="canvasLocation" x="2492.753623188406" y="-1449.1071428571429"/>
         </scene>
-        <!--WIshlist/ cart -->
+        <!--Wishlist / Cart -->
         <scene sceneID="TzM-tw-0SQ">
             <objects>
                 <tableViewController id="EGz-eK-Z9B" customClass="CartTableViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
@@ -174,7 +173,7 @@
                         <color key="sectionIndexBackgroundColor" red="0.93218034510000003" green="0.89657157659999998" blue="0.84922379260000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="P4X-Yu-1Yf">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P4X-Yu-1Yf" id="WSh-WT-ffu">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -188,7 +187,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Lists" image="pencil.and.ellipsis.rectangle" catalog="system" landscapeImage="pencil.and.ellipsis.rectangle" id="MhA-9S-oGY"/>
-                    <navigationItem key="navigationItem" title="WIshlist/ cart " id="5G7-tL-Vkx">
+                    <navigationItem key="navigationItem" title="Wishlist / Cart " id="5G7-tL-Vkx">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="W6j-tC-gi8">
                             <connections>
                                 <segue destination="XEk-gK-nXQ" kind="show" id="2hO-Zb-uhQ"/>
@@ -645,18 +644,6 @@
                                 <rect key="frame" x="-7" y="88" width="428" height="345"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSi-Ni-Rvx">
-                                        <rect key="frame" x="299" y="248" width="95" height="70"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" red="0.66705375909999998" green="0.65374785660000001" blue="0.36062926049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" image="arrow.right.circle.fill" catalog="system">
-                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50" scale="medium" weight="heavy"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="IpH-fu-QGF" kind="unwind" unwindAction="unwindSegue:" id="x4e-i5-Dvm"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qid-dj-qq1">
                                         <rect key="frame" x="48.930023728137257" y="14" width="330.00000000000045" height="290"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -700,11 +687,9 @@
                     <navigationItem key="navigationItem" id="JDU-Gu-Q2c"/>
                     <connections>
                         <outlet property="textLabel" destination="RS9-x5-7AG" id="aiT-e2-usT"/>
-                        <outlet property="titleLabel" destination="RS9-x5-7AG" id="FJ2-ci-Q5j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nVc-lf-ev2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="IpH-fu-QGF" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3800.0000000000005" y="758.70535714285711"/>
         </scene>
