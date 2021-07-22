@@ -26,8 +26,12 @@ class CalculatorViewController: UIViewController {
         let taxAmount = (Double(taxRateTextField.text!)! / 100)
         let originalPrice = Double(originalItemPrice.text!)!
         let subtotal = (originalPrice - (discountAmount * originalPrice)) * (taxAmount + 1)
-        let subtotalRounded = Double(round(100*subtotal)/100)
-        subtotalLabel.text = "$ \(subtotalRounded)"
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        formatter.maximumFractionDigits = 2
+        formatter.minimumFractionDigits = 2
+        let subtotalRounded = formatter.string(from: subtotal as NSNumber)!
+        subtotalLabel.text = "$\(subtotalRounded)"
     }
   
     
