@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Questions View Controller-->
         <scene sceneID="RhK-et-c0a">
             <objects>
-                <viewController id="cKd-X4-FuD" sceneMemberID="viewController">
+                <viewController id="cKd-X4-FuD" customClass="QuestionsViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XKN-EY-55X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,15 +60,15 @@
                                 <rect key="frame" x="-45" y="507" width="501" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to ask yourself before you purchase." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vU-Ze-uY4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to ask yourself before you purchase," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vU-Ze-uY4">
                                 <rect key="frame" x="21" y="483" width="344" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to ask yourself before you purchase." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCR-nq-2MR">
-                                <rect key="frame" x="37" y="775" width="344" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="with click revealing tips." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCR-nq-2MR">
+                                <rect key="frame" x="94.452305123864789" y="780" width="223.00000000000011" height="26.000000000000227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -441,10 +441,10 @@
             </objects>
             <point key="canvasLocation" x="560.86956521739137" y="755.35714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Question1 Animation View Controller-->
         <scene sceneID="7tN-Oa-ocy">
             <objects>
-                <viewController id="Qzg-6I-VP9" sceneMemberID="viewController">
+                <viewController id="Qzg-6I-VP9" customClass="Question1AnimationViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KA6-av-HMK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -454,10 +454,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfL-tR-NcP">
-                                        <rect key="frame" x="31.51842895005484" y="42.996955696102305" width="363.00000000000023" height="216.99999999999989"/>
+                                        <rect key="frame" x="47.972774907711937" y="43" width="329.99999999999977" height="217"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Is there a healthy and safe rewarding activity that I can do to get the same level of fufillment as pressing the checkout button?</string>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="26"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="26"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -487,8 +487,8 @@
                                 <rect key="frame" x="-127" y="429" width="642" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For example: Coding and desiging an app." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnl-x6-UoA">
-                                <rect key="frame" x="-2.4598433772007411" y="752" width="414" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For example: " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnl-x6-UoA">
+                                <rect key="frame" x="38" y="751" width="337" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -499,15 +499,18 @@
                         <viewLayoutGuide key="safeArea" id="LUm-6J-qHV"/>
                     </view>
                     <navigationItem key="navigationItem" id="98J-fV-cme"/>
+                    <connections>
+                        <outlet property="textLabel" destination="fnl-x6-UoA" id="cI4-bF-kKu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C0C-nE-2RA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2243.4782608695655" y="755.35714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Question2 Animation View Controller-->
         <scene sceneID="Wyb-hX-Ygo">
             <objects>
-                <viewController id="aIo-Xh-5ZA" sceneMemberID="viewController">
+                <viewController id="aIo-Xh-5ZA" customClass="Question2AnimationViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1PV-yM-kHQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -517,9 +520,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Am I buying to escape feelings of extreme sadness and/or anxiety rather than for necessity?" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHv-YB-MOw">
-                                        <rect key="frame" x="31.51842895005484" y="46.996955696102305" width="363.00000000000023" height="216.99999999999989"/>
+                                        <rect key="frame" x="48.694393532181948" y="47" width="330" height="216.99999999999989"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="26"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="26"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -545,8 +548,8 @@
                                     <navigationItem title="Title" id="Vq2-sM-5eQ"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Practice a healthy enjoyable coping mechanism such as journaling." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCJ-2l-h3x">
-                                <rect key="frame" x="27.87133154320145" y="752" width="358.00000000000023" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Practice a healthy coping mechanism" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCJ-2l-h3x">
+                                <rect key="frame" x="59" y="751" width="293" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -556,20 +559,30 @@
                                 <rect key="frame" x="-41" y="405" width="753" height="389"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yh9-1X-YTf">
+                                <rect key="frame" x="66" y="776" width="293" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Gvh-1Z-3LV"/>
                     </view>
                     <navigationItem key="navigationItem" id="55g-gQ-X8e"/>
+                    <connections>
+                        <outlet property="textLabel" destination="yh9-1X-YTf" id="KeP-Ek-JqK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QPh-wc-Son" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2989.8550724637685" y="757.36607142857144"/>
         </scene>
-        <!--View Controller-->
+        <!--Question3 Animation View Controller-->
         <scene sceneID="4RU-7h-YnU">
             <objects>
-                <viewController id="5D6-kR-4Oe" sceneMemberID="viewController">
+                <viewController id="5D6-kR-4Oe" customClass="Question3AnimationViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sMK-YA-4l7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -586,12 +599,15 @@
                                         <state key="normal" image="arrow.right.circle.fill" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50" scale="medium" weight="heavy"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="IpH-fu-QGF" kind="unwind" unwindAction="unwindSegue:" id="x4e-i5-Dvm"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qid-dj-qq1">
-                                        <rect key="frame" x="32" y="-3" width="363" height="290"/>
+                                        <rect key="frame" x="48.930023728137257" y="14" width="330.00000000000045" height="290"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Does my carbon footprint from the transport, weight, and rate of products being shipped to my home outweigh the pros of buying sustainably sourced/produced clothes?</string>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="26"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="26"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -605,8 +621,8 @@
                                     <navigationItem title="Title" id="vDD-vK-VC4"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shop at local thriftstores rather than frequently shopping from second-hand sellers online." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkb-b7-WXc">
-                                <rect key="frame" x="27.607740585712236" y="752" width="358.00000000000023" height="56.999999999999773"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instead of getting new pieces online," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkb-b7-WXc">
+                                <rect key="frame" x="49" y="754" width="316" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -616,13 +632,24 @@
                                 <rect key="frame" x="-41" y="405" width="753" height="389"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RS9-x5-7AG">
+                                <rect key="frame" x="51" y="771" width="316" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0CW-c9-ZLZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="JDU-Gu-Q2c"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="RS9-x5-7AG" id="FJ2-ci-Q5j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nVc-lf-ev2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="IpH-fu-QGF" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3800.0000000000005" y="758.70535714285711"/>
         </scene>

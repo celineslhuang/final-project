@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AECB5A526A91516006E3602 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AECB5A426A91516006E3602 /* QuestionsViewController.swift */; };
+		4AECB5A726A916F9006E3602 /* Question1AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AECB5A626A916F8006E3602 /* Question1AnimationViewController.swift */; };
+		4AECB5A926A92303006E3602 /* Question2AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AECB5A826A92303006E3602 /* Question2AnimationViewController.swift */; };
+		4AECB5AB26A92746006E3602 /* Question3AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AECB5AA26A92746006E3602 /* Question3AnimationViewController.swift */; };
 		9175CCE326A7C41B005F787E /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9175CCE126A7C41B005F787E /* CartTableViewController.swift */; };
 		9175CCE526A7C472005F787E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9175CCE426A7C472005F787E /* Cart.swift */; };
 		9175CCE726A7D5B9005F787E /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9175CCE626A7D5B9005F787E /* AddItemViewController.swift */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AECB5A426A91516006E3602 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		4AECB5A626A916F8006E3602 /* Question1AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1AnimationViewController.swift; sourceTree = "<group>"; };
+		4AECB5A826A92303006E3602 /* Question2AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2AnimationViewController.swift; sourceTree = "<group>"; };
+		4AECB5AA26A92746006E3602 /* Question3AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question3AnimationViewController.swift; sourceTree = "<group>"; };
 		9175CCE226A7C41B005F787E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/CartTableViewController.swift; sourceTree = "<group>"; };
 		9175CCE426A7C472005F787E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		9175CCE626A7D5B9005F787E /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +123,10 @@
 				AA6E527226A7673900FE3A93 /* SceneDelegate.swift */,
 				AA6E527426A7673900FE3A93 /* ViewController.swift */,
 				AA6E527626A7673900FE3A93 /* Main.storyboard */,
+				4AECB5AA26A92746006E3602 /* Question3AnimationViewController.swift */,
+				4AECB5A826A92303006E3602 /* Question2AnimationViewController.swift */,
+				4AECB5A626A916F8006E3602 /* Question1AnimationViewController.swift */,
+				4AECB5A426A91516006E3602 /* QuestionsViewController.swift */,
 				AA6E527C26A7674300FE3A93 /* Assets.xcassets */,
 				AA6E527E26A7674300FE3A93 /* LaunchScreen.storyboard */,
 				AA6E528126A7674300FE3A93 /* Info.plist */,
@@ -282,9 +294,13 @@
 				AA6E527B26A7673900FE3A93 /* final_project.xcdatamodeld in Sources */,
 				9175CCE726A7D5B9005F787E /* AddItemViewController.swift in Sources */,
 				9175CCE326A7C41B005F787E /* CartTableViewController.swift in Sources */,
+				4AECB5A926A92303006E3602 /* Question2AnimationViewController.swift in Sources */,
+				4AECB5A526A91516006E3602 /* QuestionsViewController.swift in Sources */,
+				4AECB5A726A916F9006E3602 /* Question1AnimationViewController.swift in Sources */,
 				9175CCE926A7E197005F787E /* doneWithItemViewController.swift in Sources */,
 				AAF3CA0226A8B73000E2D18A /* CalculatorViewController.swift in Sources */,
 				AA6E527326A7673900FE3A93 /* SceneDelegate.swift in Sources */,
+				4AECB5AB26A92746006E3602 /* Question3AnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
