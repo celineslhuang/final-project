@@ -8,9 +8,9 @@
 import UIKit
 
 class Question3AnimationViewController: UIViewController {
-
-    @IBOutlet weak var titleLabel: UILabel!
-    var str = "source second-hand locally."
+    
+    
+   var str = "source second-hand locally."
 
    override func viewDidLoad() {
        super.viewDidLoad()

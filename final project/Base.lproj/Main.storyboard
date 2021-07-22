@@ -645,6 +645,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="JDU-Gu-Q2c"/>
                     <connections>
+                        <outlet property="textLabel" destination="RS9-x5-7AG" id="de2-2I-LHu"/>
                         <outlet property="titleLabel" destination="RS9-x5-7AG" id="FJ2-ci-Q5j"/>
                     </connections>
                 </viewController>
