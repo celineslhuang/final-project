@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5X8-JK-tyN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5X8-JK-tyN">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -59,7 +57,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools-4" translatesAutoresizingMaskIntoConstraints="NO" id="S1i-Pm-vfD">
-                                <rect key="frame" x="-45" y="507" width="501" height="310"/>
+                                <rect key="frame" x="-45" y="507" width="501" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to ask yourself before you purchase." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vU-Ze-uY4">
@@ -69,15 +67,22 @@
                                 <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to ask yourself before you purchase." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCR-nq-2MR">
+                                <rect key="frame" x="37" y="775" width="344" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="1bI-Mb-34e"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="1bI-Mb-34e"/>
                     </view>
                     <navigationItem key="navigationItem" id="ihG-Zr-RG5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UdB-Qv-UPR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1555" y="753"/>
+            <point key="canvasLocation" x="1553.6231884057972" y="752.67857142857144"/>
         </scene>
         <!--Done With Item View Controller-->
         <scene sceneID="tpM-rS-7bR">
@@ -108,7 +113,7 @@
                                 <color key="textColor" red="0.42888784410000003" green="0.41585752749999999" blue="0.067516373990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="figure.wave" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="pRr-Ht-rcv">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pRr-Ht-rcv">
                                 <rect key="frame" x="86" y="365" width="229" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -138,8 +143,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="BIq-lt-xKP"/>
                         <color key="backgroundColor" red="0.87823122740000004" green="0.83828264470000002" blue="0.58707219359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="BIq-lt-xKP"/>
                     </view>
                     <navigationItem key="navigationItem" id="0fz-yc-LQD"/>
                     <connections>
@@ -157,13 +162,13 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jqm-UU-XiX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="separatorColor" red="0.93218034510000003" green="0.89657157659999998" blue="0.84922379260000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexColor" red="0.20390012860000001" green="0.20393526549999999" blue="0.2038924694" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.93218034510000003" green="0.89657157659999998" blue="0.84922379260000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="P4X-Yu-1Yf">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P4X-Yu-1Yf" id="WSh-WT-ffu">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -243,7 +248,7 @@
                                 <rect key="frame" x="15" y="480" width="398" height="145"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZp-ha-hoj">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZp-ha-hoj">
                                 <rect key="frame" x="188" y="660" width="68" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -262,8 +267,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="Des-jv-Cmi"/>
                         <color key="backgroundColor" red="0.87823122740000004" green="0.83828264470000002" blue="0.58707219359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Des-jv-Cmi"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZsD-pn-hXv" colorLabel="IBBuiltInLabel-Gray"/>
                     <connections>
@@ -351,7 +356,7 @@
                                 <color key="textColor" red="0.42745098040000001" green="0.43921568630000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVM-a4-Rx6">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVM-a4-Rx6">
                                 <rect key="frame" x="163" y="660" width="89" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.42745098039215684" green="0.4392156862745098" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
@@ -364,8 +369,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="THx-Qa-6on"/>
                         <color key="backgroundColor" red="0.93333333333333335" green="0.89803921568627454" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="THx-Qa-6on"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calculator" image="number" catalog="system" landscapeImage="bookmark" id="gMg-Fy-RRL"/>
                     <connections>
@@ -490,8 +495,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="LUm-6J-qHV"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="LUm-6J-qHV"/>
                     </view>
                     <navigationItem key="navigationItem" id="98J-fV-cme"/>
                 </viewController>
@@ -552,8 +557,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="Gvh-1Z-3LV"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Gvh-1Z-3LV"/>
                     </view>
                     <navigationItem key="navigationItem" id="55g-gQ-X8e"/>
                 </viewController>
@@ -612,8 +617,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="0CW-c9-ZLZ"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="0CW-c9-ZLZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="JDU-Gu-Q2c"/>
                 </viewController>
@@ -622,21 +627,17 @@
             <point key="canvasLocation" x="3800.0000000000005" y="758.70535714285711"/>
         </scene>
     </scenes>
-    <color key="tintColor" red="0.42888784410000003" green="0.44094681740000002" blue="0.35397315029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
-        <image name="arrow.right.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="bookmark" catalog="system" width="112" height="128"/>
-        <image name="cart.fill" catalog="system" width="128" height="102"/>
-        <image name="figure.wave" catalog="system" width="81" height="128"/>
-        <image name="number" catalog="system" width="128" height="124"/>
+        <image name="arrow.right.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="bookmark" catalog="system" width="56" height="64"/>
+        <image name="cart.fill" catalog="system" width="64" height="50"/>
+        <image name="number" catalog="system" width="64" height="62"/>
         <image name="output-onlinepngtools-2" width="1080" height="1350"/>
         <image name="output-onlinepngtools-4" width="1080" height="1350"/>
-        <image name="pencil.and.ellipsis.rectangle" catalog="system" width="128" height="81"/>
+        <image name="pencil.and.ellipsis.rectangle" catalog="system" width="64" height="40"/>
         <image name="question1image" width="1350" height="932"/>
-        <image name="trash" catalog="system" width="121" height="128"/>
-        <image name="tray" catalog="system" width="128" height="88"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="trash" catalog="system" width="60" height="64"/>
+        <image name="tray" catalog="system" width="64" height="44"/>
     </resources>
+    <color key="tintColor" red="0.42888784410000003" green="0.44094681740000002" blue="0.35397315029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
