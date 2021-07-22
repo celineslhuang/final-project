@@ -8,7 +8,7 @@
 import UIKit
 
 class Question3AnimationViewController: UIViewController {
-    
+    @IBOutlet weak var textLabel: UILabel!
     
    var str = "source second-hand locally."
 

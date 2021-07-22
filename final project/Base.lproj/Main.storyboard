@@ -628,10 +628,6 @@
                                 <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="question1image" translatesAutoresizingMaskIntoConstraints="NO" id="ax3-lP-t8d">
-                                <rect key="frame" x="-41" y="405" width="753" height="389"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RS9-x5-7AG">
                                 <rect key="frame" x="51" y="771" width="316" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -639,13 +635,17 @@
                                 <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools-9" translatesAutoresizingMaskIntoConstraints="NO" id="ax3-lP-t8d">
+                                <rect key="frame" x="-175" y="410" width="753" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0CW-c9-ZLZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="JDU-Gu-Q2c"/>
                     <connections>
-                        <outlet property="textLabel" destination="RS9-x5-7AG" id="de2-2I-LHu"/>
+                        <outlet property="textLabel" destination="RS9-x5-7AG" id="aiT-e2-usT"/>
                         <outlet property="titleLabel" destination="RS9-x5-7AG" id="FJ2-ci-Q5j"/>
                     </connections>
                 </viewController>
@@ -662,6 +662,7 @@
         <image name="number" catalog="system" width="64" height="62"/>
         <image name="output-onlinepngtools-2" width="1080" height="1350"/>
         <image name="output-onlinepngtools-4" width="1080" height="1350"/>
+        <image name="output-onlinepngtools-9" width="1080" height="1350"/>
         <image name="pencil.and.ellipsis.rectangle" catalog="system" width="64" height="40"/>
         <image name="question1image" width="1350" height="932"/>
         <image name="trash" catalog="system" width="60" height="64"/>
