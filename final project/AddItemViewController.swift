@@ -32,7 +32,7 @@ var previousVC = CartTableViewController()
         
         item.name = itemtextField.text
         item.price = itempriceField.text
-        item.date = itemdatePicker.date
+        //item.date = itemdatePicker.date
         
         appDelegate.saveContext()
         
