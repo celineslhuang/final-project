@@ -62,7 +62,7 @@ class CartTableViewController: UITableViewController {
 
         let cart = cartLists[indexPath.row]
         
-            cell.textLabel?.text = (cart.name ?? "failed to load item name") + " - " + (cart.price ?? "failed to load price")
+        cell.textLabel?.text = (cart.name ?? "") + "-" + (cart.price ?? "")
     
               return cell
     }

@@ -10,6 +10,7 @@ import UIKit
 class cart {
     var name = ""
     var price = "$"+""
+    var date = ""
    // var datePicker = UIDatePicker()
 
 
